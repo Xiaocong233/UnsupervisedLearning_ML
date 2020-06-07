@@ -12,3 +12,12 @@ Written in Octave/MATLAB, this repository contains a set of vectorized/unvectori
   
 - runkMeans(X, initial_centroids, max_iters, plot_progress)
   - runs the K-Means algorithm on data matrix X, where each row of X is a single example
+
+- plotProgresskMeans(X, centroids, previous, idx, K, i)
+  - Displays the progress of k-Means as it is running, intended for use only with 2D data
+  
+- plotDataPoints(X, idx, K)
+  - Plots data points in X, coloring them so that those with the same index assignments in idx have the same color
+  
+- drawLine(p1, p2, varargin)
+  - Draws a line from point p1 to point p2
