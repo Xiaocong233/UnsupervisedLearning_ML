@@ -38,3 +38,22 @@ drawLine(p1, p2, varargin)
 - Draws a line from point p1 to point p2
 
 ## Principal Components Analysis
+```
+[U, S] = pca(X)
+```
+- Return eigenvectors for principal component analysis on dataset X
+
+```
+Z = projectData(X, U, K)
+```
+- Computes the reduced data representation when projecting only on to the top k eigenvectors
+
+```
+X_rec = recoverData(Z, U, K)
+```
+- Computes for an approximation of the original data when using the projected data
+
+```
+[X_norm, mu, sigma] = featureNormalize(X)
+```
+- Outputs new X with features normalized using (X - mean) / std
