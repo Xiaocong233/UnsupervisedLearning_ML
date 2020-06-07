@@ -1,5 +1,5 @@
 % Created by Andrew Ng ML
-% Initialize the centroids to be random exampl
+% Initialize the centroids to be random example
 function centroids = kMeansInitCentroids(X, K)
 
   % You should return this values correctly
