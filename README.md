@@ -1,7 +1,7 @@
 ## Description
 Written in Octave/MATLAB, this repository contains a set of vectorized/unvectorized ML algorithms/functions serving to solve Kmeans clustering problem and Principal Components Analysis to compute dimensionality reductions for datas.
 
-### Kmeans Clustering Algorithm
+## Kmeans Clustering Algorithm
 ```
 computeCentroids(X, idx, K)
 ```
@@ -37,4 +37,4 @@ drawLine(p1, p2, varargin)
 ```
 - Draws a line from point p1 to point p2
 
-### Principal Components Analysis
+## Principal Components Analysis
