@@ -3,6 +3,7 @@ Written in Octave/MATLAB, this repository contains a set of vectorized/unvectori
 
 - computeCentroids(X, idx, K)
   - Returns the new centroids by computing the means of the data points assigned to each centroid.
+  
 
 - findClosestCentroids(X, centroids)
   - Outputs the index of closest centroid assigned to every example
